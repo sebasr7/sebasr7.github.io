@@ -1,0 +1,58 @@
+body {
+    /* */
+    width: 100%; /*cambió*/
+    font-family: Inconsolata;
+    }
+
+#left-element {
+    background-color: rgb(68, 69, 71);
+    height: 100vh;
+    text-align: center; 
+}
+.lista li{
+    color: white;
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 19px;
+}
+.lista li:hover{
+    color: black;
+}
+
+#rigth-container{
+    background-image: url("../assets/imagenes/fon.jpg");
+    width: 100%;
+
+}
+
+.img-profile{
+    align-content: center;
+    text-align: center;
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+#right-container {
+    background-color: rgb(231, 231, 231);
+}
+
+.lista li{
+    list-style: none;
+}
+
+
+
+.lista {
+    text-align: center;
+
+}
+
+.hover-light:hover{
+    color: white;
+}
